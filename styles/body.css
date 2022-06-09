@@ -1,0 +1,190 @@
+.bodyContainer {
+  width: 100vw;
+  margin: auto;
+  border-bottom: 1px solid #444444;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.bodyContainer .hero {
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  padding-bottom: 4em;
+}
+
+.bodyContainer .first {
+  font-size: 10rem;
+  letter-spacing: .16em;
+  font-weight: 900;
+}
+
+.bodyContainer .second {
+  background: var(--yellow);
+  color: var(--light-black);
+  font-size: 10rem;
+  margin-top: -.7em;
+}
+
+.bodyContainer .third {
+  font-size: 3.3rem;
+  margin-top: -2em;
+  letter-spacing: .1em;
+  font-weight: 800;
+}
+
+.bodyContainer .first, .bodyContainer .second, .bodyContainer .third {
+  text-align: center;
+  line-height: 1;
+}
+
+.bodyContainer .first, .bodyContainer .third {
+  color: var(--yellow);
+}
+
+.bioSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 6em auto;
+}
+
+.bioSection p {
+  font-weight: 200;
+  margin-right: 3em;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.bioSection p span {
+  font-weight: 700;
+}
+
+.bioSection .bioText {
+  width: 30vw;
+}
+
+.bioSection .bioLeft .bioSocial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bioSection .bioLeft .bioSocial svg {
+  font-size: 4em;
+  color: #961d6e;
+}
+
+.bioSection .bioLeft .bioSocial svg:hover {
+  color: var(--yellow);
+}
+
+.moreContainer {
+  background: #0d314a;
+  width: 100vw;
+  height: auto;
+  border-bottom: 1px solid teal;
+  padding: 3em;
+}
+
+.moreContainer .earsMouth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: -2em;
+}
+
+.moreContainer .more {
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  text-align: center;
+}
+
+.moreContainer .more h1 {
+  font-size: 3rem;
+}
+
+.moreContainer .portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60vw;
+  margin: 3em auto;
+}
+
+.moreContainer .portfolio .portfolioHeading {
+  text-align: center;
+}
+
+.moreContainer .portfolio .portfolioSamples {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 2em 0;
+}
+
+.moreContainer .portfolio .portfolioSamples .portfolioLeft, .moreContainer .portfolio .portfolioSamples .portfolioMiddle, .moreContainer .portfolio .portfolioSamples .portfolioRight {
+  width: 15vw;
+  background: var(--light-black);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1em;
+}
+
+.moreContainer .portfolio .portfolioSamples .portfolioLeft .image, .moreContainer .portfolio .portfolioSamples .portfolioMiddle .image, .moreContainer .portfolio .portfolioSamples .portfolioRight .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  margin-top: -4em;
+}
+
+.moreContainer .portfolio .portfolioSamples .portfolioLeft a p, .moreContainer .portfolio .portfolioSamples .portfolioMiddle a p, .moreContainer .portfolio .portfolioSamples .portfolioRight a p {
+  text-decoration: underline;
+  color: #961d6e;
+  font-style: italic;
+  font-size: .8rem;
+  letter-spacing: .4em;
+}
+/*# sourceMappingURL=body.css.map */

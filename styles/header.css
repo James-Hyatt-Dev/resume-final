@@ -8,8 +8,13 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: .5em 5em;
+  padding: 0 5em;
   border-bottom: 4px solid #961d6e;
+}
+
+.headerContainer .floatingHead {
+  position: absolute;
+  left: 90vw;
 }
 
 .headerContainer .nav {
@@ -17,9 +22,19 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-right: 8vw;
 }
 
 .headerContainer .nav a {
   color: var(--almost-white);
+  text-decoration: none;
+}
+
+.headerContainer .nav a:hover {
+  color: yellow;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #961d6e;
+          text-decoration-color: #961d6e;
+  text-decoration-thickness: 6px;
 }
 /*# sourceMappingURL=header.css.map */

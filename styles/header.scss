@@ -1,19 +1,34 @@
+// HEADER
 .headerContainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: .5em 5em;
+    padding: 0 5em;
     border-bottom: 4px solid #961d6e;
+
+    .floatingHead {
+        position: absolute;
+        left: 90vw;
+    }
 
     .nav {
         gap: 1em;
         display: flex;
+        padding-right: 8vw;
 
         a {
             color: var(--almost-white);
+            text-decoration: none;
             
+            &:hover {
+                color: yellow;
+                text-decoration: underline;
+                text-decoration-color: #961d6e;
+                text-decoration-thickness: 6px;
+            }
         }
     }
 
    
 }
+

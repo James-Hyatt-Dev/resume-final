@@ -1,0 +1,155 @@
+.bodyContainer {    
+    width: 100vw;
+    margin:  auto;
+    border-bottom: 1px solid #444444;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    .hero {
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding-bottom: 4em;
+    }
+
+    .first {
+        font-size: 10rem;
+        letter-spacing: .16em;
+        font-weight: 900;
+    }
+
+    .second {
+        background: var(--yellow);
+        color: var(--light-black);
+        font-size: 10rem;       
+        margin-top: -.7em;
+    }
+
+    .third {
+        font-size: 3.3rem;
+        margin-top: -2em;
+        letter-spacing: .1em;
+        font-weight: 800;
+    }
+
+    .first, .second, .third {
+        text-align: center;
+        line-height: 1;
+
+    }
+
+    .first, .third {
+        color: var(--yellow);
+    }    
+}
+
+// Bio Section
+.bioSection {
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6em auto;
+
+    p {
+        font-weight: 200;
+        margin-right: 3em;
+        font-size: 1.2em;
+        text-align: justify;
+
+        span {
+            font-weight: 700;
+        }
+    }
+
+    .bioText {
+        width: 30vw;
+    }
+
+    .bioLeft {
+
+        .bioSocial {
+            display: flex;
+            svg {
+                font-size: 4em;
+                color: #961d6e;
+
+                &:hover {
+                    color: var(--yellow);
+                }
+            }
+        }
+    }
+
+}
+
+// More Section
+.moreContainer {
+    background: #0d314a;
+    width: 100vw;
+    height: auto;
+    border-bottom: 1px solid teal;
+    padding: 3em;
+
+    .earsMouth {
+        display: flex;
+        justify-content: space-around;
+        margin-top: -2em;
+    }
+
+    .more {
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+        h1 {
+            font-size: 3rem;
+        }
+    }
+
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+        width: 60vw;
+        margin: 3em auto;
+
+        .portfolioHeading {
+            text-align: center;
+        }
+
+       .portfolioSamples {
+           display: flex;
+           justify-content: space-between;
+           margin: 2em 0;
+
+           .portfolioLeft, .portfolioMiddle, .portfolioRight {
+               width: 15vw;
+               background: var(--light-black);
+               border-radius: 10px;
+               display: flex;
+               flex-direction: column;
+               padding: 1em;
+
+               .image {
+                   display: flex;
+                   margin: auto;
+                   margin-top: -4em;                  
+               }
+
+               a {
+
+                   p {
+                        text-decoration: underline;
+                        color: #961d6e;
+                        font-style: italic;
+                        font-size: .8rem;
+                        letter-spacing: .4em;
+                   }
+               }
+           }
+       }
+    }
+}

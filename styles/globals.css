@@ -3,6 +3,7 @@
   --medium-gray: #777777;
   --silver: #bbbbbb;
   --almost-white: #eeeeee;
+  --yellow: #ffe742
 }
 
 p,h1,h2,h3,h4,h5,h6 {
@@ -21,9 +22,15 @@ header {
 
 a {
   color: inherit;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.link {
+  color: #961d6e;
+  text-decoration-color: #961d6e !important;
+  text-decoration: underline;
 }
