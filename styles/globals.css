@@ -1,9 +1,22 @@
+:root {
+  --light-black: #333333;
+  --medium-gray: #777777;
+  --silver: #bbbbbb;
+  --almost-white: #eeeeee;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+  color: var(--almost-white);
+}
+
+
 html,
-body {
+body,
+header {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Kanit', sans-serif;
+    background: var(--light-black);
 }
 
 a {

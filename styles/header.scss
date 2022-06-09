@@ -1,0 +1,19 @@
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5em 5em;
+    border-bottom: 4px solid #961d6e;
+
+    .nav {
+        gap: 1em;
+        display: flex;
+
+        a {
+            color: var(--almost-white);
+            
+        }
+    }
+
+   
+}
